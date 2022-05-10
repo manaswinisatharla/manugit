@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  
+  <groups>
+  <define name="Allgroups">
+<include name="smokeGrp"></include>
+<include name="ftGrp"></include>
+<include name="smokeGrp"></include>
+  </define>
+  </groups>
+    <classes>
+      <class name="com.Vtiger.repo.TC03_CreateContact_org"/>
+      <class name="com.Testng.Test1"/>
+      <class name="com.Vtiger.generic.Contact"/>
+      <class name="com.Testng.GroupingExecution"/>
+      <class name="com.Testng.Screenshot"/>
+      <class name="com.Testng.Test2"/>
+      <class name="com.Testng.Sample"/>
+      <class name="testngtest.Testcase1"/>
+      <class name="testngtest.Testcase2"/>
+      <class name="com.Vtiger.generic.Tc_001Test"/>
+      <class name="com.Vtiger.repo.TC01_CreateOrg"/>
+      <class name="com.Testng.Testing"/>
+      <class name="com.Vtiger.generic.Tc_003"/>
+      <class name="com.Testng.Dataprovider"/>
+      <class name="com.Testng.Customer"/>
+      <class name="com.Vtiger.Practice.Dataprovider"/>
+      <class name="com.Testng.Hdfc"/>
+      <class name="testngtest.testcase3"/>
+      <class name="com.Vtiger.repo.TC02_CreateOrg_DD"/>
+      <class name="com.Vtiger.generic.Tc_002"/>
+      <class name="com.Testng.Assertions"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
